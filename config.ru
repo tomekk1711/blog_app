@@ -2,3 +2,4 @@
 
 require ::File.expand_path('../config/environment', __FILE__)
 run Rails.application
+HEROKU_DEBUG_RAILS_RUNNER=1
