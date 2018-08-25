@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
-gem 'rails', github: 'rails/rails', branch: '4-2-stable'
 
+ruby '2.4.4'
+gem 'rails', github: 'rails/rails', branch: '4-2-stable'
+gem 'sassc'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 #gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
